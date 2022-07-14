@@ -1,0 +1,7 @@
+How to get HTML response using template engines?
+
+
+1) Lof of template engines available, so that in response we can get HTML templates.
+2) npm install pug and then Set engine to "pug" in app object.
+3) Create "views" folder to keep HTML templates locally.
+4) In "app.get" method, use "render" method to use the local template.

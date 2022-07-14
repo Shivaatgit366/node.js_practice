@@ -1,0 +1,10 @@
+how to store configuaration settings in different environments and how to modify them.
+
+
+"config" package should be installed.
+Make a "config" folder and add "default.json", "development.json", "production.json" files into it. Add few lines of settings in them.
+Make a "custom-environment-variables.json" file for password related settings. Keep it inside "config" folder.
+Make an object using "config" module.
+Everytime change the environment using "set" or "export" keyword.
+Use "get" method to get the properties of "config" object what we have created.
+Set the password in environment variable. Then config object can use "get" method to get the password.

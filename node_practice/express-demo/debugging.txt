@@ -1,0 +1,7 @@
+how to use "debug package" in the place of "console.log" statements?? we can use debug package so that things are clearly visible.
+
+
+1) Instead of console.log statements, we can use debug package with environment variables.
+2) Install debug package and make an object/function with it. Remember to give the required namespace.
+3) Set environment variable to namespace   export DEBUG=app:startup     or    export DEBUG=app*
+4) When we run the application, we can see debugging messages.

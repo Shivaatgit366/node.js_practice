@@ -1,0 +1,9 @@
+How to clean up the project file and keep the files in proper structure??
+
+
+1) Make a folder called "routes" and keep all the courses endpoints in courses.js, authors endpoints in authors.js files.
+2) Make router object in each file using the express module      express.Router()
+3) Later these router objects can be used inside the main project file.
+4) Each router objects will take care of requests related to specific endpoints.
+   example:- All "/api/courses/" related endpoints will be taken care by "course router" object.
+5)
